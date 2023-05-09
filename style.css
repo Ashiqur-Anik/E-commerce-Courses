@@ -1,0 +1,123 @@
+/* nav section start */
+strong{
+    color: red;
+    font-size: 30px;
+}
+.margin{
+    margin-left: auto;
+}
+.container a img{
+    width: 100px;
+}
+.nav-link{
+    margin-right: 30px;
+}
+.nav-text{
+    color: white;
+    font-size: 20px;
+    transition: 0.7s;
+}
+.nav-text:hover{
+   color: black;
+}
+.btn{
+    background-color: rgb(6, 204, 6);
+    border-radius: 35px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition:0.7s;
+}
+.btn:hover{
+    background-color:black;
+    color: white;
+}
+
+/* nav section end */
+
+/* about section srart */
+
+.about span{
+    color: red;
+}
+.about h1 span{
+    color: rgb(11, 187, 126);
+}
+.about{
+    background-color:rgb(222, 245, 245);
+   
+}
+
+/* about section end */
+
+/* books section start */
+
+.books .card img{
+    width: 80px;
+}
+.books .card span{
+    color: rgb(10, 30, 176) ;
+    font-size: 20px;
+}
+.books .card{
+    background-color: rgb(222, 245, 255);
+    cursor: pointer;
+    transition: 0.2s;
+}
+.books .card:hover{
+    transform: translatey(-2px);
+}
+
+/* books section end */
+
+/* courses section start */
+.courses .btn{
+    width: 150px;
+}
+.courses h1{
+    color: rgb(39, 25, 78);
+}
+.courses .card{
+    background-color: rgb(212, 235, 285);
+    transition: 0.5s;
+    cursor: pointer;
+}
+.courses .card:hover{
+    transform: translateY(-5px);
+}
+/* courcess section end */
+
+/* testimonial section start */
+
+.testimonial .text{
+    text-align: justify;
+}
+.testimonial .container{
+    max-width: 70%;
+}
+@media screen and (max-width:768px) {
+    .testimonial .container{
+        max-width: 95%;
+    }
+}
+
+/* testimonial section end */
+
+/* Contact section start */
+ul li{
+    display: grid;
+}
+.Contact .text{
+    text-align: justify;
+}
+@media screen and (max-width:767px) {
+    .col-md-2{
+        text-align:center;
+    }
+}
+.container-fluid .text{
+    text-decoration:none;
+    color: rgb(169, 177, 177);
+}
+/* Contact section end */
