@@ -1,103 +1,101 @@
 /* nav section start */
-strong{
+strong {
     color: red;
     font-size: 30px;
 }
-.margin{
+
+.margin {
     margin-left: auto;
 }
-.container a img{
+
+.container a img {
     width: 100px;
 }
-.nav-link{
+
+.nav-link {
     margin-right: 30px;
 }
-.nav-text{
+
+.nav-text {
     color: white;
     font-size: 20px;
     transition: 0.7s;
 }
-.nav-text:hover{
-   color: black;
+
+.nav-text:hover {
+    color: black;
 }
-.btn{
+
+.btn {
     background-color: rgb(6, 204, 6);
     border-radius: 35px;
     padding-left: 25px;
     padding-right: 25px;
     padding-top: 10px;
     padding-bottom: 10px;
-    transition:0.7s;
+    transition: 0.7s;
 }
-.btn:hover{
-    background-color:black;
+
+.btn:hover {
+    background-color: black;
     color: white;
 }
 
 /* nav section end */
 
-/* about section srart */
-
-.about span{
-    color: red;
-}
-.about h1 span{
-    color: rgb(11, 187, 126);
-}
-.about{
-    background-color:rgb(222, 245, 245);
-   
-}
-
-/* about section end */
 
 /* books section start */
 
-.books .card img{
+.books .card img {
     width: 80px;
 }
-.books .card span{
-    color: rgb(10, 30, 176) ;
+
+.books .card span {
+    color: rgb(255, 0, 153);
     font-size: 20px;
 }
-.books .card{
-    background-color: rgb(222, 245, 255);
+.books .card {
+    background-color: rgb(209, 232, 253);
     cursor: pointer;
-    transition: 0.2s;
+    transition: 1s;
 }
-.books .card:hover{
-    transform: translatey(-2px);
+
+.books .card:hover {
+    transform: translateY(4px);
 }
+
+
 
 /* books section end */
 
 /* courses section start */
-.courses .btn{
+.courses .btn {
     width: 150px;
 }
-.courses h1{
-    color: rgb(39, 25, 78);
-}
-.courses .card{
+
+.courses .card {
     background-color: rgb(212, 235, 285);
-    transition: 0.5s;
-    cursor: pointer;
+    transition: 1s;
 }
-.courses .card:hover{
+
+.courses .card:hover {
     transform: translateY(-5px);
 }
+
 /* courcess section end */
 
 /* testimonial section start */
 
-.testimonial .text{
+.testimonial .text {
     text-align: justify;
 }
-.testimonial .container{
+
+.testimonial .container {
     max-width: 70%;
 }
+
 @media screen and (max-width:768px) {
-    .testimonial .container{
+    .testimonial .container {
         max-width: 95%;
     }
 }
@@ -105,19 +103,35 @@ strong{
 /* testimonial section end */
 
 /* Contact section start */
-ul li{
+ul li {
     display: grid;
 }
-.Contact .text{
+
+.Contact .text {
     text-align: justify;
 }
+
 @media screen and (max-width:767px) {
-    .col-md-2{
-        text-align:center;
+    .col-md-2 {
+        text-align: center;
     }
 }
-.container-fluid .text{
-    text-decoration:none;
+
+.container-fluid .text {
+    text-decoration: none;
     color: rgb(169, 177, 177);
 }
+
 /* Contact section end */
+
+
+.darkmode {
+    background-color: rgb(43, 43, 43);
+}
+.reveal{
+    transform: translateY(160px);
+    transition: 1s;
+}
+.active{
+    transform: translateY(0px);
+}
